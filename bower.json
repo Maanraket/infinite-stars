@@ -1,14 +1,15 @@
 {
-  "name": "pixi test",
+  "name": "infinite stars",
   "version": "0.0.1",
   "authors": [
-    "Tom Hutman <tom@charliebravo.nl>"
+    "Tom Hutman <tom@charliebravo.nl>",
+    "Floris Veldhuizen <flm.veldhuizen@gmail.com>"
   ],
   "description": "Initial tests with pixi",
   "main": "index.html",
   "keywords": [
     "pixi",
-    "jizz"
+    "test"
   ],
   "license": "MIT",
   "dependencies": {
