@@ -82,6 +82,14 @@
 	        param.deviatonmultiplier = document.getElementById('deviationmultiplier').value;
 	        param.stretch = document.getElementById('stretch').value;
 	    });
+
+        $('#mute-toggle').change(function() {
+            if($(this).is(":checked")) {
+                player.mute();
+                return;
+            }
+            player.unMute();
+        });
 	});
 
     var resizeHandler = function(event) {
